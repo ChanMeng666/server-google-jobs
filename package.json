@@ -1,0 +1,31 @@
+{
+  "name": "@modelcontextprotocol/server-google-jobs",
+  "version": "0.1.0",
+  "description": "MCP server for Google Jobs search via Serp API",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "bin": {
+    "mcp-server-google-jobs": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/node-fetch": "^2.6.11",
+    "shx": "^0.3.4",
+    "typescript": "^5.6.2"
+  }
+}
