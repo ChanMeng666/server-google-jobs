@@ -10,6 +10,18 @@
 
 A Model Context Protocol (MCP) server implementation that provides Google Jobs search capabilities via SerpAPI integration. Features multi-language support, flexible search parameters, and smart error handling.
 
+
+https://github.com/user-attachments/assets/8f6739e1-7db7-4171-88b4-59c6290a4c72
+
+![屏幕截图 2024-12-31 183813](https://github.com/user-attachments/assets/fd02f916-7ba0-4d92-8970-79ccecdb1115)
+
+![屏幕截图 2024-12-31 183754](https://github.com/user-attachments/assets/22f497f5-381e-40d1-b082-d13d13239677)
+
+![屏幕截图 2024-12-31 180734](https://github.com/user-attachments/assets/19f74219-5059-4c49-95e9-3a1741d866d2)
+
+![屏幕截图 2024-12-31 182106](https://github.com/user-attachments/assets/5e88ec38-66cd-4f02-95b3-118007736dbd)
+
+
 # ✨ Features
 
 ### 🌍 Multi-Language Support
