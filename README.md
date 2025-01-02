@@ -90,6 +90,7 @@ npm install
 ```
 
 2. Configure environment:
+Modify your `claude_desktop_config.json` with the following content (adjust paths according to your system):
 ```json
 {
   "google-jobs": {
@@ -123,6 +124,25 @@ npm start
 - Validate search parameters format
 - Check network connectivity
 - Verify country/language code support
+
+# 📦 Installation
+
+## Manual Installation
+
+<img src="https://cdn.simpleicons.org/npm/CB3837" height="14"/> <a href="https://www.npmjs.com/package/@chanmeng666/google-jobs-server">@chanmeng666/google-jobs-server</a>
+
+```bash
+# Using npm
+npm i @chanmeng666/google-jobs-server
+# or
+npm install @chanmeng666/google-jobs-server
+
+# Using yarn
+yarn add @chanmeng666/google-jobs-server
+
+# Using pnpm
+pnpm add @chanmeng666/google-jobs-server
+```
 
 # 💻 Tech Stack
 
