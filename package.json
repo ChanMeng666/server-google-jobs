@@ -1,13 +1,13 @@
 {
-  "name": "@modelcontextprotocol/server-google-jobs",
-  "version": "0.1.0",
+  "name": "@chanmeng666/google-jobs-server",
+  "version": "1.0.0",
   "description": "MCP server for Google Jobs search via Serp API",
   "type": "module",
   "engines": {
     "node": ">=16"
   },
   "bin": {
-    "mcp-server-google-jobs": "dist/index.js"
+    "google-jobs-server": "dist/index.js"
   },
   "files": [
     "dist"
