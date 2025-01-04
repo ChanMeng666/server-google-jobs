@@ -4,6 +4,7 @@
  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white"/>
  <img src="https://img.shields.io/badge/MCP-Server-blue?style=flat"/>
  <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=flat"/>
+<a href="https://smithery.ai/server/@chanmeng666/google-jobs-server"><img alt="Smithery Badge" src="https://smithery.ai/badge/@chanmeng666/google-jobs-server"></a>
 </div>
 
 <br/>
@@ -126,6 +127,14 @@ npm start
 - Verify country/language code support
 
 # 📦 Installation
+
+## Installing via Smithery
+
+To install Google Jobs for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@chanmeng666/google-jobs-server):
+
+```bash
+npx -y @smithery/cli install @chanmeng666/google-jobs-server --client claude
+```
 
 ## Manual Installation
 
