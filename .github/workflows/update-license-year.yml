@@ -1,0 +1,35 @@
+name: Update License Year
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *'  # 每年1月1日运行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update-license-year:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          
+      - name: Update year in LICENSE
+        run: |
+          # 获取当前年份
+          CURRENT_YEAR=$(date +%Y)
+          # 更新 LICENSE 文件中的年份
+          sed -i "s/Copyright (c) [0-9]\{4\}/Copyright (c) ${CURRENT_YEAR}/" LICENSE
+          
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "chore: update license year to ${{ env.CURRENT_YEAR }}"
+          title: "chore: update license year"
+          body: |
+            Automated changes:
+            - Updated copyright year in LICENSE file to current year
+          branch: update-license-year
+          base: main
+          delete-branch: true
