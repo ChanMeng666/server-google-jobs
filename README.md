@@ -11,6 +11,10 @@
 
 A Model Context Protocol (MCP) server implementation that provides Google Jobs search capabilities via SerpAPI integration. Features multi-language support, flexible search parameters, and smart error handling.
 
+<a href="https://glama.ai/mcp/servers/bijbpfhrbx">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/bijbpfhrbx/badge" alt="Google Jobs Server MCP server" />
+</a>
+
 <br/>
 
 [![👉Try It Now!👈](https://gradient-svg-generator.vercel.app/api/svg?text=%F0%9F%91%89Try%20It%20Now!%F0%9F%91%88&color=000000&height=60&gradientType=radial&duration=6s&color0=ffffff&template=pride-rainbow)](https://smithery.ai/server/@chanmeng666/google-jobs-server)
@@ -200,5 +204,4 @@ This project is [MIT licensed](./LICENSE).
 Created and maintained by [Chan Meng](https://chanmeng.live/).
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=normal&logo=github&logoColor=white)](https://github.com/ChanMeng666)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chanmeng666/)
-
 
