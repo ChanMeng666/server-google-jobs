@@ -1,5 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/chanmeng666-server-google-jobs-badge.png)](https://mseep.ai/app/chanmeng666-server-google-jobs)
-
 <div align="center">
  <h1><img src="public/server-google-jobs.svg" width="80px"><br/>Google Jobs MCP Server</h1>
  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
@@ -12,6 +10,10 @@
 <br/>
 
 A Model Context Protocol (MCP) server implementation that provides Google Jobs search capabilities via SerpAPI integration. Features multi-language support, flexible search parameters, and smart error handling.
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChanMeng666/server-google-jobs)
+
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/chanmeng666-server-google-jobs-badge.png)](https://mseep.ai/app/chanmeng666-server-google-jobs)
 
 <a href="https://glama.ai/mcp/servers/bijbpfhrbx">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/bijbpfhrbx/badge" alt="Google Jobs Server MCP server" />
