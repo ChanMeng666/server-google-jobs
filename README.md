@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/chanmeng666-server-google-jobs-badge.png)](https://mseep.ai/app/chanmeng666-server-google-jobs)
+
 <div align="center">
  <h1><img src="public/server-google-jobs.svg" width="80px"><br/>Google Jobs MCP Server</h1>
  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
