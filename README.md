@@ -14,6 +14,7 @@ A Model Context Protocol (MCP) server implementation that provides Google Jobs s
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChanMeng666/server-google-jobs)
 
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/chanmeng666-server-google-jobs-badge.png)](https://mseep.ai/app/chanmeng666-server-google-jobs)
+[![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/df679562-50ad-4615-ac3c-a509c27583f0)
 
 <a href="https://glama.ai/mcp/servers/bijbpfhrbx">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/bijbpfhrbx/badge" alt="Google Jobs Server MCP server" />
