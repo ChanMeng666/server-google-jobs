@@ -19,14 +19,14 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.1.1",
+    "@modelcontextprotocol/sdk": "1.17.3",
     "mcp-evals": "^2.0.0",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@types/node": "^20.10.0",
+    "@types/node": "^22.0.0",
     "@types/node-fetch": "^2.6.11",
-    "shx": "^0.3.4",
+    "shx": "^0.4.0",
     "typescript": "^5.6.2"
   }
 }
