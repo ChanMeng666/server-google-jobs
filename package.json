@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.17.3",
-    "mcp-evals": "^1.0.18",
+    "mcp-evals": "^2.0.0",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
