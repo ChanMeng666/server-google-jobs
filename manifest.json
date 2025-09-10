@@ -1,0 +1,61 @@
+{
+  "name": "google-jobs-server",
+  "version": "1.0.0",
+  "display_name": "Google Jobs Search",
+  "description": "A powerful MCP server for searching Google Jobs via SerpAPI with multi-language support, flexible search parameters, and smart error handling.",
+  "icon": "server-google-jobs.svg",
+  "author": {
+    "name": "Chan Meng",
+    "email": "chanmeng666@gmail.com",
+    "url": "https://chanmeng.live/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ChanMeng666/server-google-jobs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChanMeng666/server-google-jobs.git"
+  },
+  "keywords": [
+    "google-jobs",
+    "job-search",
+    "mcp-server",
+    "serpapi",
+    "typescript",
+    "careers",
+    "employment"
+  ],
+  "server": {
+    "entry_point": "dist/index.js",
+    "runtime": "node",
+    "runtime_version": ">=16"
+  },
+  "tools": [
+    {
+      "name": "search_jobs",
+      "description": "Search for job opportunities on Google Jobs with comprehensive filtering options including location, employment type, salary range, and post date filters. Supports multiple languages (English, Chinese, Japanese, Korean) and provides detailed job information with direct application links."
+    }
+  ],
+  "env": [
+    {
+      "name": "SERP_API_KEY",
+      "description": "Your SerpAPI key for accessing Google Jobs data. Get your free API key from https://serpapi.com/",
+      "required": true,
+      "type": "string"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "search",
+    "web-services"
+  ],
+  "tags": [
+    "jobs",
+    "search",
+    "google",
+    "careers",
+    "employment",
+    "recruitment"
+  ],
+  "mcp_version": "1.0",
+  "schema_version": "1.0.0"
+}
