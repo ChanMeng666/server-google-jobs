@@ -19,7 +19,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.17.3",
+    "@modelcontextprotocol/sdk": "1.17.5",
     "mcp-evals": "^2.0.0",
     "node-fetch": "^3.3.2"
   },
