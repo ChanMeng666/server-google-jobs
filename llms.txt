@@ -1,0 +1,53 @@
+# Google Jobs MCP Server - AI Usage Guide
+
+## Project Overview
+This is a Model Context Protocol (MCP) server for Google Jobs search that provides powerful job search capabilities for AI assistants.
+
+## Core Features
+- Access to Google Jobs data via SerpAPI
+- Multi-language search support (English, Chinese, Japanese, Korean)
+- Flexible search parameters and filtering options
+- Smart error handling and result formatting
+
+## How to Use
+1. Ensure SERP_API_KEY environment variable is set
+2. Use the search_jobs tool for job searching
+3. Supported parameters: query(required), location, posted_age, employment_type, salary, radius, hl, page, sort_by
+
+## Search Examples
+- Basic search: query="software engineer"
+- With location: query="data analyst", location="Tokyo"
+- With salary: query="product manager", salary="$100K+"
+- Multi-language: hl="zh-CN" (Chinese), hl="ja" (Japanese), hl="ko" (Korean)
+
+## Technical Stack
+- TypeScript + Node.js
+- MCP SDK
+- SerpAPI integration
+- Multi-language localization
+
+## Installation Methods
+- npm: npm install @chanmeng666/google-jobs-server
+- Smithery: npx @smithery/cli install @chanmeng666/google-jobs-server
+- Manual MCP client configuration
+
+## Related Links
+- GitHub: https://github.com/ChanMeng666/server-google-jobs
+- NPM: https://www.npmjs.com/package/@chanmeng666/google-jobs-server
+- Author: https://chanmeng.live/
+
+## AI Assistant Integration
+This MCP server is designed to be easily integrated with AI assistants like Claude, ChatGPT, and other MCP-compatible tools. It provides structured job search results with rich metadata including company information, salary ranges, job highlights, and direct application links.
+
+## Search Capabilities
+- Job title and keyword search
+- Geographic location filtering with radius
+- Employment type filtering (full-time, part-time, contract, internship)
+- Salary range filtering
+- Post date filtering (today, 3 days, week, month)
+- Multi-language result formatting
+- Pagination support
+- Multiple sorting options (date, relevance, salary)
+
+## Error Handling
+The server provides intelligent error handling with helpful suggestions for search optimization, parameter validation, and rate limit management.

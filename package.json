@@ -28,5 +28,37 @@
     "@types/node-fetch": "^2.6.11",
     "shx": "^0.4.0",
     "typescript": "^5.6.2"
+  },
+  "ai": {
+    "description": "MCP server that provides Google Jobs search functionality via SerpAPI, supporting multi-language and flexible search parameters",
+    "use_cases": [
+      "job_search",
+      "multi_language_job_search",
+      "salary_filtering",
+      "geographic_search",
+      "employment_type_filtering"
+    ],
+    "capabilities": [
+      "multi_language_support",
+      "intelligent_error_handling",
+      "flexible_search_parameters",
+      "structured_output"
+    ],
+    "installation": "npm install @chanmeng666/google-jobs-server",
+    "documentation": "https://github.com/ChanMeng666/server-google-jobs",
+    "target_audience": ["job_seekers", "recruiters", "career_consultants", "ai_assistants"],
+    "search_intent": "job_search",
+    "primary_use_cases": [
+      "Find job opportunities",
+      "Search by location and salary",
+      "Filter by employment type",
+      "Multi-language job search"
+    ],
+    "technical_capabilities": [
+      "Real-time job data",
+      "Multi-language support",
+      "Advanced filtering",
+      "Structured output"
+    ]
   }
 }

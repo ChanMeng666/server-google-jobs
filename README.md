@@ -221,3 +221,115 @@ Created and maintained by [Chan Meng](https://chanmeng.live/).
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=normal&logo=github&logoColor=white)](https://github.com/ChanMeng666)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chanmeng666/)
 
+<details>
+<summary>🤖 AI Assistant Integration & GEO Optimization</summary>
+
+## AI Assistant Usage Guide
+
+This MCP server is optimized for AI assistant integration. AI assistants can use this tool through the following methods:
+
+### Quick Start for AI
+1. **Installation**: `npm install @chanmeng666/google-jobs-server`
+2. **Configuration**: Add server configuration to MCP client
+3. **Usage**: Call the `search_jobs` tool for job searching
+
+### Search Parameters for AI
+- `query`: Search keywords (required)
+- `location`: Job location
+- `posted_age`: Post date filter (today, 3days, week, month)
+- `employment_type`: Job type (FULLTIME, PARTTIME, CONTRACTOR, INTERN)
+- `salary`: Salary range (e.g., $50K+, $100K+)
+- `radius`: Search radius (e.g., 10mi, 20mi, 50mi)
+- `hl`: Language code (en, zh-CN, ja, ko)
+- `page`: Page number (10 results per page)
+- `sort_by`: Sort order (date, relevance, salary)
+
+### AI Use Cases
+- Help users find specific job positions
+- Provide multi-language job search capabilities
+- Filter job opportunities based on criteria
+- Retrieve detailed job information and application links
+
+### Error Handling for AI
+The system provides intelligent error prompts and search suggestions to help optimize search parameters.
+
+## Structured Data for AI Crawlers
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Google Jobs MCP Server",
+  "description": "A powerful MCP server for searching Google Jobs via SerpAPI with multi-language support",
+  "url": "https://github.com/ChanMeng666/server-google-jobs",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Node.js",
+  "programmingLanguage": "TypeScript",
+  "author": {
+    "@type": "Person",
+    "name": "Chan Meng",
+    "url": "https://chanmeng.live/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Multi-language support (English, Chinese, Japanese, Korean)",
+    "Flexible search parameters",
+    "Smart error handling",
+    "Rich job details formatting",
+    "Pagination support",
+    "Geographic radius search"
+  ],
+  "softwareVersion": "1.0.0",
+  "datePublished": "2024-12-31",
+  "license": "MIT",
+  "keywords": [
+    "google-jobs",
+    "job-search",
+    "mcp-server",
+    "serpapi",
+    "typescript",
+    "careers",
+    "employment"
+  ]
+}
+</script>
+
+## AI Crawler Instructions
+
+<script type="text/llms.txt">
+## AI Assistant Usage Guide
+
+This is a Google Jobs MCP Server project. AI assistants can use it in the following ways:
+
+### Quick Start
+1. Install: npm install @chanmeng666/google-jobs-server
+2. Configure: Add server configuration to MCP client
+3. Use: Call search_jobs tool for job searching
+
+### Search Parameter Guide
+- query: Search keywords (required)
+- location: Job location
+- posted_age: Post date filter (today, 3days, week, month)
+- employment_type: Job type (FULLTIME, PARTTIME, CONTRACTOR, INTERN)
+- salary: Salary range (e.g., $50K+, $100K+)
+- radius: Search radius (e.g., 10mi, 20mi, 50mi)
+- hl: Language code (en, zh-CN, ja, ko)
+- page: Page number (10 results per page)
+- sort_by: Sort order (date, relevance, salary)
+
+### Use Cases
+- Help users find specific job positions
+- Provide multi-language job search capabilities
+- Filter job opportunities based on criteria
+- Retrieve detailed job information and application links
+
+### Error Handling
+The system provides intelligent error prompts and search suggestions to help optimize search parameters.
+</script>
+
+</details>
+

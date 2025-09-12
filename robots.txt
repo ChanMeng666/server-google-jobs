@@ -1,0 +1,28 @@
+# Allow AI crawlers access
+User-agent: *
+Allow: /
+
+# Specifically allow major AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: BingBot
+Allow: /
+
+# Suggest reasonable crawl delay
+Crawl-delay: 1
+
+# Sitemap location (if available)
+# Sitemap: https://github.com/ChanMeng666/server-google-jobs/sitemap.xml

@@ -57,5 +57,32 @@
     "recruitment"
   ],
   "mcp_version": "1.0",
-  "schema_version": "1.0.0"
+  "schema_version": "1.0.0",
+  "ai_optimization": {
+    "search_intent": "job_search",
+    "target_audience": ["job_seekers", "recruiters", "career_consultants", "ai_assistants"],
+    "primary_use_cases": [
+      "Find job opportunities",
+      "Search by location and salary",
+      "Filter by employment type",
+      "Multi-language job search"
+    ],
+    "technical_capabilities": [
+      "Real-time job data",
+      "Multi-language support",
+      "Advanced filtering",
+      "Structured output"
+    ],
+    "ai_friendly_features": [
+      "Clear parameter descriptions",
+      "Comprehensive error handling",
+      "Multi-language support",
+      "Structured result formatting"
+    ],
+    "integration_guidance": {
+      "installation": "npm install @chanmeng666/google-jobs-server",
+      "configuration": "Set SERP_API_KEY environment variable",
+      "usage": "Call search_jobs tool with appropriate parameters"
+    }
+  }
 }
