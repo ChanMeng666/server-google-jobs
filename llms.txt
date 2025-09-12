@@ -34,7 +34,7 @@ This is a Model Context Protocol (MCP) server for Google Jobs search that provid
 ## Related Links
 - GitHub: https://github.com/ChanMeng666/server-google-jobs
 - NPM: https://www.npmjs.com/package/@chanmeng666/google-jobs-server
-- Author: https://chanmeng.live/
+- Author: https://chanmeng.org/
 
 ## AI Assistant Integration
 This MCP server is designed to be easily integrated with AI assistants like Claude, ChatGPT, and other MCP-compatible tools. It provides structured job search results with rich metadata including company information, salary ranges, job highlights, and direct application links.

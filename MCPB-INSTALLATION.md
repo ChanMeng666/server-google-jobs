@@ -92,7 +92,7 @@ MCP Bundle (MCPB) 是一种zip格式的归档文件，包含了本地MCP服务�
 
 如果您遇到任何问题，请访问：
 - GitHub Repository: https://github.com/ChanMeng666/server-google-jobs
-- 作者: Chan Meng (https://chanmeng.live/)
+- 作者: Chan Meng (https://chanmeng.org/)
 
 ## 许可证
 
