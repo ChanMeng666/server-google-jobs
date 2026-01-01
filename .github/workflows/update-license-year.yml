@@ -19,6 +19,8 @@ jobs:
         run: |
           # 获取当前年份
           CURRENT_YEAR=$(date +%Y)
+          # 导出到 GitHub Actions 环境变量
+          echo "CURRENT_YEAR=$CURRENT_YEAR" >> $GITHUB_ENV
           # 更新 LICENSE 文件中的年份
           sed -i "s/Copyright (c) [0-9]\{4\}/Copyright (c) ${CURRENT_YEAR}/" LICENSE
           
