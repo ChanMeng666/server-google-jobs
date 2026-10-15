@@ -28,7 +28,7 @@ This is a Model Context Protocol (MCP) server for Google Jobs search that provid
 
 ## Installation Methods
 - npm: npm install @chanmeng666/google-jobs-server
-- Smithery: npx @smithery/cli install @chanmeng666/google-jobs-server
+- npx: npx -y @chanmeng666/google-jobs-server (with SERP_API_KEY set)
 - Manual MCP client configuration
 
 ## Related Links

@@ -12,10 +12,6 @@ A Model Context Protocol (MCP) server implementation that provides Google Jobs s
 
 <br/>
 
-[Try it now](https://smithery.ai/server/@chanmeng666/google-jobs-server)
-
-<br/>
-
 https://github.com/user-attachments/assets/8f6739e1-7db7-4171-88b4-59c6290a4c72
 
 ![屏幕截图 2024-12-31 183813](https://github.com/user-attachments/assets/fd02f916-7ba0-4d92-8970-79ccecdb1115)
@@ -131,14 +127,6 @@ npm start
 - Verify country/language code support
 
 # 📦 Installation
-
-## Installing via Smithery
-
-To install Google Jobs for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@chanmeng666/google-jobs-server):
-
-```bash
-npx -y @smithery/cli install @chanmeng666/google-jobs-server --client claude
-```
 
 ## Manual Installation
 
