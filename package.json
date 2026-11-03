@@ -2,6 +2,15 @@
   "name": "@chanmeng666/google-jobs-server",
   "version": "1.0.0",
   "description": "MCP server for Google Jobs search via Serp API",
+  "author": "Chan Meng (https://chanmeng.org)",
+  "homepage": "https://github.com/ChanMeng666/server-google-jobs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanMeng666/server-google-jobs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChanMeng666/server-google-jobs/issues"
+  },
   "type": "module",
   "engines": {
     "node": ">=16"
