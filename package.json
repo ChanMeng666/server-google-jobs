@@ -1,6 +1,6 @@
 {
   "name": "@chanmeng666/google-jobs-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Google Jobs search via Serp API",
   "author": "Chan Meng (https://chanmeng.org)",
   "homepage": "https://github.com/ChanMeng666/server-google-jobs#readme",
@@ -55,7 +55,12 @@
     ],
     "installation": "npm install @chanmeng666/google-jobs-server",
     "documentation": "https://github.com/ChanMeng666/server-google-jobs",
-    "target_audience": ["job_seekers", "recruiters", "career_consultants", "ai_assistants"],
+    "target_audience": [
+      "job_seekers",
+      "recruiters",
+      "career_consultants",
+      "ai_assistants"
+    ],
     "search_intent": "job_search",
     "primary_use_cases": [
       "Find job opportunities",
